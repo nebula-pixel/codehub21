@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeHub - Learn Coding</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: white;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: #111827;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #60a5fa;
+      margin-bottom: 20px;
+      font-size: 38px;
+    }
+
+    h3 {
+      margin-top: 25px;
+      margin-bottom: 10px;
+      color: #c084fc;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    pre {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      overflow-x: auto;
+      margin: 15px 0;
+      color: #38bdf8;
+    }
+
+    .hero-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background: white;
+      color: black;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .hero-btn:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #020617;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CodeHub</h1>
+  <p>Learn HTML, CSS, JavaScript, Java, C, C#, and C++ for FREE</p>
+  <a href="#html" class="hero-btn">Start Learning</a>
+</header>
+
+<nav>
+  <a href="#html">HTML</a>
+  <a href="#css">CSS</a>
+  <a href="#javascript">JavaScript</a>
+  <a href="#java">Java</a>
+  <a href="#c">C</a>
+  <a href="#csharp">C#</a>
+  <a href="#cpp">C++</a>
+</nav>
+
+<section id="html">
+  <div class="card">
+    <h2>HTML Beginner Guide</h2>
+
+    <p>HTML stands for HyperText Markup Language. HTML is used to build the structure of websites. Every website uses HTML.</p>
+
+    <h3>Basic HTML Structure</h3>
+
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;My Website&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+
+    <p>The &lt;body&gt; contains everything visible on the website.</p>
+
+    <h3>Headings</h3>
+
+    <pre>
+&lt;h1&gt;Big Heading&lt;/h1&gt;
+&lt;h2&gt;Smaller Heading&lt;/h2&gt;
+    </pre>
+
+    <h3>Paragraphs</h3>
+
+    <pre>
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+    </pre>
+
+    <h3>Links</h3>
+
+    <pre>
+&lt;a href="https://google.com"&gt;Google&lt;/a&gt;
+    </pre>
+
+    <h3>Images</h3>
+
+    <pre>
+&lt;img src="cat.jpg" width="300"&gt;
+    </pre>
+
+    <h3>Beginner Projects</h3>
+
+    <p>Create a portfolio website, gaming site, blog, or login page to improve faster.</p>
+  </div>
+</section>
+
+<section id="css">
+  <div class="card">
+    <h2>CSS Beginner Guide</h2>
+
+    <p>CSS stands for Cascading Style Sheets. CSS makes websites look beautiful.</p>
+
+    <h3>Connecting CSS</h3>
+
+    <pre>
+&lt;link rel="stylesheet" href="style.css"&gt;
+    </pre>
+
+    <h3>Colors</h3>
+
+    <pre>
+body {
+  background: black;
+  color: white;
+}
+    </pre>
+
+    <h3>Fonts</h3>
+
+    <pre>
+font-size: 30px;
+font-family: Arial;
+    </pre>
+
+    <h3>Flexbox</h3>
+
+    <pre>
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    </pre>
+
+    <h3>Animations</h3>
+
+    <pre>
+button:hover {
+  background: red;
+}
+    </pre>
+
+    <p>Practice by recreating websites and building projects daily.</p>
+  </div>
+</section>
+
+<section id="javascript">
+  <div class="card">
+    <h2>JavaScript Beginner Guide</h2>
+
+    <p>JavaScript makes websites interactive and dynamic.</p>
+
+    <h3>Variables</h3>
+
+    <pre>
+let age = 12;
+const name = "Alex";
+    </pre>
+
+    <h3>Functions</h3>
+
+    <pre>
+function hello() {
+  console.log("Hello");
+}
+    </pre>
+
+    <h3>If Statements</h3>
+
+    <pre>
+if(age >= 18) {
+  console.log("Adult");
+}
+    </pre>
+
+    <h3>DOM Manipulation</h3>
+
+    <pre>
+document.getElementById("title").innerHTML = "Welcome";
+    </pre>
+
+    <p>Build calculators, games, and apps to improve quickly.</p>
+  </div>
+</section>
+
+<section id="java">
+  <div class="card">
+    <h2>Java Beginner Guide</h2>
+
+    <p>Java is used for Android apps, games, backend systems, and software.</p>
+
+    <h3>Hello World</h3>
+
+    <pre>
+public class Main {
+
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+
+}
+    </pre>
+
+    <h3>Variables</h3>
+
+    <pre>
+int age = 12;
+String name = "Alex";
+    </pre>
+
+    <h3>Loops</h3>
+
+    <pre>
+for(int i = 0; i < 5; i++) {
+  System.out.println(i);
+}
+    </pre>
+
+    <p>Practice by making games and console applications.</p>
+  </div>
+</section>
+
+<section id="c">
+  <div class="card">
+    <h2>C Beginner Guide</h2>
+
+    <p>C is a powerful low-level language used for systems and performance.</p>
+
+    <h3>Hello World</h3>
+
+    <pre>
+#include &lt;stdio.h&gt;
+
+int main() {
+
+  printf("Hello World");
+
+  return 0;
+}
+    </pre>
+
+    <h3>Variables</h3>
+
+    <pre>
+int age = 12;
+float height = 5.7;
+    </pre>
+
+    <h3>Pointers</h3>
+
+    <pre>
+int x = 10;
+int *ptr = &x;
+    </pre>
+
+    <p>C helps you understand how computers really work.</p>
+  </div>
+</section>
+
+<section id="csharp">
+  <div class="card">
+    <h2>C# Beginner Guide</h2>
+
+    <p>C# is used for apps, desktop software, and Unity games.</p>
+
+    <h3>Hello World</h3>
+
+    <pre>
+using System;
+
+class Program {
+
+  static void Main() {
+    Console.WriteLine("Hello World");
+  }
+
+}
+    </pre>
+
+    <h3>Classes</h3>
+
+    <pre>
+class Player {
+  public string name = "Alex";
+}
+    </pre>
+
+    <h3>Unity</h3>
+
+    <pre>
+using UnityEngine;
+    </pre>
+
+    <p>C# is one of the best languages for beginner game developers.</p>
+  </div>
+</section>
+
+<section id="cpp">
+  <div class="card">
+    <h2>C++ Beginner Guide</h2>
+
+    <p>C++ is used for games, engines, desktop apps, and performance software.</p>
+
+    <h3>Hello World</h3>
+
+    <pre>
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main() {
+
+  cout << "Hello World";
+
+  return 0;
+}
+    </pre>
+
+    <h3>Classes</h3>
+
+    <pre>
+class Player {
+public:
+  string name = "Alex";
+};
+    </pre>
+
+    <h3>Vectors</h3>
+
+    <pre>
+vector&lt;int&gt; numbers;
+    </pre>
+
+    <p>C++ is powerful for game engines and advanced applications.</p>
+  </div>
+</section>
+
+<footer>
+  <h2>CodeHub</h2>
+  <p>Built for beginner programmers.</p>
+</footer>
+
+</body>
+</html>
